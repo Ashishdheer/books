@@ -1,0 +1,59 @@
+phase,behaviour_group,meaning
+transit,Cruise / transit,Travelling from one point to the next along fairly straight legs with gentle turns at waypoints.
+cruise,Cruise / transit,Steady flight on a straight leg at a constant speed and height.
+waypoint,Cruise / transit,Fixed-wing drone flying to its next programmed point.
+patrol,Cruise / transit,"Boat moving between patrol points, steady speed, moderate turns."
+low_level_cruise,Cruise / transit,"Flying low and fast along a leg, with small height changes."
+extend,Cruise / transit,"Short straight, level run after a hard manoeuvre to regain speed."
+holding,Orbit / holding,"Airliner waiting in a race-track oval (straight leg, 180 deg turn, straight leg, 180 deg turn)."
+orbit,Orbit / holding,Flying a full circle around a point at constant speed.
+racetrack,Orbit / holding,Oval pattern: two straight legs joined by two half-circles.
+cap_racetrack,Orbit / holding,Fighter combat-air-patrol: a long race-track at height and moderate speed.
+loiter,Orbit / holding,Drone circling slowly over an area.
+orbit_poi,Orbit / holding,Multirotor circling a point of interest at small radius.
+search_orbit,Orbit / holding,Helicopter circling an area while searching.
+circle,Orbit / holding,Boat or skiff going round in a circle (for example around a buoy or net).
+hover,Hover / stationary,"Staying in one place in the air with tiny drift (rotorcraft, multirotor)."
+landed_hover,Hover / stationary,Helicopter holding a very low hover just before touch-down.
+decel,Slow / stop-and-go,"Slowing down to a stop, usually just before a hover."
+hover_taxi,Slow / stop-and-go,"Helicopter sliding a short distance at low speed close to the ground, then stopping."
+reposition,Slow / stop-and-go,"Helicopter moving to a new observation spot, then stopping."
+waypoint_stop_go,Slow / stop-and-go,"Multirotor flying to a point, stopping, hovering, then moving again."
+stop_go,Slow / stop-and-go,"Vessel running, then nearly stopping, then moving again."
+slow_down_speed_up,Slow / stop-and-go,"Ship cutting speed for a while, then returning to normal speed."
+fishing,Slow / drift,Slow trawling with frequent small course changes.
+drift,Slow / drift,"Almost no propulsion: moving with the current, small heading changes."
+anchored,Slow / drift,"Almost stationary, swinging slightly around the anchor."
+climb,Climb / descent,Gaining height at a steady climb rate.
+descent,Climb / descent,Losing height at a steady descent rate.
+approach,Climb / descent,Descending and slowing for landing.
+final,Climb / descent,"Last straight, low, slow stretch before landing."
+vertical,Climb / descent,Multirotor going straight up or down.
+vertical_descent,Climb / descent,Helicopter sinking straight down to land.
+zoom_climb,Climb / descent,Fighter trading speed for height in a steep climb.
+dive,Climb / descent,"Fighter descending steeply, gaining speed."
+climb_cycle,Climb / descent,Fighter climbing from low level to a higher altitude.
+descent_cycle,Climb / descent,Fighter coming back down to low level.
+launch_climb,Climb / descent,Powered climb after launch up to cruise altitude.
+hard_turn,Hard manoeuvre,A high-g turn (several g for fighters).
+jink,Hard manoeuvre,Short sharp direction change.
+recovery_turn,Hard manoeuvre,Turn that leaves a climb or descent cycle.
+weather_deviation,Hard manoeuvre,"Airliner turning off its route to avoid weather, then returning."
+midcourse_turn,Hard manoeuvre,A planned course change in the middle of a long flight.
+zigzag,Hard manoeuvre,"Alternating left/right course changes, regular or evasive."
+sprint,Speed change / burst,A short burst of high speed.
+high_speed_run,Speed change / burst,Fighter flying fast and straight between turns.
+dash,Speed change / burst,"A fast burst, then slowing again."
+fast_dash,Speed change / burst,Multirotor flying at its top speed for a short distance.
+breakout_dash,Speed change / burst,The moment a disguised target drops the disguise and accelerates.
+speed_change,Speed change / burst,Straight flight while speeding up or slowing down.
+survey,Search / survey,Back-and-forth lawnmower pattern to cover an area.
+boost,Powered flight,Rocket motor burning: very high acceleration.
+sustain,Powered flight,Lower thrust that roughly holds or slowly changes speed.
+coast,Powered flight,No thrust: speed decays because of drag.
+terrain_following,Powered flight,Low flight with a gently rolling height profile.
+mimic_civilian,Disguise (mimic),"Behaving like an airliner: steady speed and height, gentle turns."
+mimic_helicopter,Disguise (mimic),"Behaving like a helicopter: slow, low, loitering."
+mimic_boat,Disguise (mimic),Behaving like a boat: moderate steady speed.
+mimic_ship,Disguise (mimic),"Behaving like a ship: slow, steady, very wide turns."
+mimic_skiff,Disguise (mimic),"Behaving like a skiff: small, twitchy, frequent turns."
